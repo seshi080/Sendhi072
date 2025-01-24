@@ -7,6 +7,7 @@ import json
 import http.server
 import socketserver
 import threading
+import os
 
 # إعداد بيانات الاعتماد الخاصة بك
 API_ID =  os.getenv("API_ID")
